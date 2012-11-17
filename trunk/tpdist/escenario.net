@@ -183,8 +183,8 @@ version = 0.8.3
         1 = access 1 R7 f1/0
         2 = access 1 R9 f0/0
         3 = access 1 R8 f0/0
-        x = -27.0147186258
-        y = -58.4264068712
+        x = -15.7010101268
+        y = -62.6690475583
         z = 1.0
 [GNS3-DATA]
     configs = configs
