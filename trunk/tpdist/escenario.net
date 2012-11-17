@@ -1,7 +1,7 @@
 autostart = False
 version = 0.8.3
 [127.0.0.1:7202]
-    workingdir = /tmp
+    workingdir = /tmp 
     udp = 10200
     [[3640]]
         image = /root/ios/IOS/c3640-js-mz.124-10.bin
