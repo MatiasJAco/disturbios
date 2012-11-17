@@ -150,7 +150,6 @@ version = 0.8.3
         slot0 = NM-1FE-TX
         f0/0 = RedD 3
         slot1 = NM-1FE-TX
-        f1/0 = RedE 2
         x = 196.102597104
         y = 26.0832611207
         z = 1.0
@@ -174,7 +173,6 @@ version = 0.8.3
         z = 1.0
     [[ETHSW RedE]]
         1 = access 1 R9 f1/0
-        2 = access 1 R8 f1/0
         3 = access 1 R10 f1/0
         x = 2.68376618405
         y = 159.362481734
@@ -188,5 +186,5 @@ version = 0.8.3
         z = 1.0
 [GNS3-DATA]
     configs = configs
-    m11 = 0.707106781187
-    m22 = 0.707106781187
+    m11 = 0.5
+    m22 = 0.5
