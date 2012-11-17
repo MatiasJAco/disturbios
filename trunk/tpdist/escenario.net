@@ -34,11 +34,40 @@ version = 0.8.3
         model = 3640
         console = 2014
         aux = 2514
+        cnfg = configs/R12.cfg
         slot0 = NM-1FE-TX
         f0/0 = R11 f1/0
-        cnfg = configs/R12.cfg
+        slot1 = NM-1FE-TX
+        f1/0 = RedI 1
         x = 83.0
         y = 268.0
+        z = 1.0
+    [[ROUTER R14]]
+        model = 3640
+        console = 2018
+        aux = 2516
+        slot0 = NM-1FE-TX
+        f0/0 = RedI 3
+        cnfg = configs/R14.cfg
+        x = -355.0
+        y = 416.0
+        z = 1.0
+    [[ETHSW RedI]]
+        1 = access 1 R12 f1/0
+        2 = access 1 R13 f0/0
+        3 = access 1 R14 f0/0
+        x = -91.5
+        y = 368.0
+        z = 1.0
+    [[ROUTER R13]]
+        model = 3640
+        console = 2016
+        aux = 2515
+        slot0 = NM-1FE-TX
+        f0/0 = RedI 2
+        cnfg = configs/R13.cfg
+        x = -249.0
+        y = 338.0
         z = 1.0
 [127.0.0.1:7200]
     workingdir = /tmp
