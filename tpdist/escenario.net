@@ -21,6 +21,25 @@ version = 0.8.3
         x = -153.208152802
         y = 112.350288425
         z = 1.0
+[127.0.0.1:7203]
+    workingdir = /tmp
+    udp = 10300
+    [[3640]]
+        image = /root/ios/IOS/c3640-js-mz.124-10.bin
+        idlepc = 0x604eb190
+        sparsemem = True
+        ghostios = True
+        chassis = 3640
+    [[ROUTER R12]]
+        model = 3640
+        console = 2014
+        aux = 2514
+        slot0 = NM-1FE-TX
+        f0/0 = R11 f1/0
+        cnfg = configs/R12.cfg
+        x = 83.0
+        y = 268.0
+        z = 1.0
 [127.0.0.1:7200]
     workingdir = /tmp
     udp = 10000
@@ -141,6 +160,8 @@ version = 0.8.3
         cnfg = configs/R11.cfg
         slot0 = NM-1FE-TX
         f0/0 = RedG 2
+        slot1 = NM-1FE-TX
+        f1/0 = R12 f0/0
         x = -387.967604156
         y = 126.492424049
         z = 1.0
