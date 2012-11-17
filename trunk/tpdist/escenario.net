@@ -1,0 +1,192 @@
+autostart = False
+version = 0.8.3
+[127.0.0.1:7202]
+    workingdir = /tmp
+    udp = 10200
+    [[3640]]
+        image = /root/ios/IOS/c3640-js-mz.124-10.bin
+        idlepc = 0x604eb190
+        sparsemem = True
+        ghostios = True
+        chassis = 3640
+    [[ROUTER R10]]
+        model = 3640
+        console = 2013
+        aux = 2513
+        cnfg = configs/R10.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = RedG 1
+        slot1 = NM-1FE-TX
+        f1/0 = RedE 3
+        x = -153.208152802
+        y = 112.350288425
+        z = 1.0
+[127.0.0.1:7200]
+    workingdir = /tmp
+    udp = 10000
+    [[3640]]
+        image = /root/ios/IOS/c3640-js-mz.124-10.bin
+        idlepc = 0x604eb190
+        ghostios = True
+        chassis = 3640
+    [[ROUTER R4]]
+        model = 3640
+        console = 2017
+        aux = 2106
+        cnfg = configs/R4.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = RedB 4
+        slot1 = NM-1FE-TX
+        f1/0 = R7 f0/0
+        x = 43.7329726952
+        y = -160.306565824
+        z = 1.0
+    [[ROUTER R5]]
+        model = 3640
+        console = 2019
+        aux = 2107
+        cnfg = configs/R5.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = RedB 5
+        x = 138.119841047
+        y = -330.298556597
+        z = 1.0
+    [[ROUTER R1]]
+        model = 3640
+        console = 15000
+        aux = 2108
+        cnfg = configs/R1.cfg
+        slot0 = NM-1FE-TX
+        slot1 = NM-1FE-TX
+        f1/0 = RedA 1
+        x = -561.962553522
+        y = -210.818325857
+        z = 1.0
+    [[ROUTER R2]]
+        model = 3640
+        console = 2012
+        aux = 2109
+        cnfg = configs/R2.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = RedB 1
+        slot1 = NM-1FE-TX
+        f1/0 = RedA 2
+        x = -219.159379566
+        y = -252.060966544
+        z = 1.0
+    [[ROUTER R3]]
+        model = 3640
+        console = 2015
+        aux = 2110
+        cnfg = configs/R3.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = RedA 4
+        slot1 = NM-1FE-TX
+        f1/0 = RedB 2
+        x = -216.0
+        y = -390.0
+        z = 1.0
+    [[ETHSW RedB]]
+        1 = access 1 R2 f0/0
+        2 = access 1 R3 f1/0
+        4 = access 1 R4 f0/0
+        5 = access 1 R5 f0/0
+        x = -56.5
+        y = -318.0
+        z = 1.0
+    [[ETHSW RedA]]
+        1 = access 1 R1 f1/0
+        2 = access 1 R2 f1/0
+        4 = access 1 R3 f0/0
+        5 = access 1 R6 f0/0
+        x = -399.673664916
+        y = -310.872149726
+        z = 1.0
+[127.0.0.1:7201]
+    workingdir = /tmp
+    udp = 10100
+    [[3640]]
+        image = /root/ios/IOS/c3640-js-mz.124-10.bin
+        idlepc = 0x604eb190
+        ghostios = True
+        chassis = 3640
+    [[ROUTER R6]]
+        model = 3640
+        console = 2006
+        aux = 2105
+        cnfg = configs/R6.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = RedA 5
+        x = -399.281312654
+        y = -135.13708499
+        z = 1.0
+    [[ROUTER R7]]
+        model = 3640
+        console = 2007
+        aux = 2111
+        cnfg = configs/R7.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = R4 f1/0
+        slot1 = NM-1FE-TX
+        f1/0 = RedD 1
+        x = -163.107647738
+        y = -157.764501988
+        z = 1.0
+    [[ROUTER R11]]
+        model = 3640
+        console = 2011
+        aux = 2112
+        cnfg = configs/R11.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = RedG 2
+        x = -387.967604156
+        y = 126.492424049
+        z = 1.0
+    [[ROUTER R8]]
+        model = 3640
+        console = 2008
+        aux = 2113
+        cnfg = configs/R8.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = RedD 3
+        slot1 = NM-1FE-TX
+        f1/0 = RedE 2
+        x = 196.102597104
+        y = 26.0832611207
+        z = 1.0
+    [[ROUTER R9]]
+        model = 3640
+        console = 2009
+        aux = 2114
+        cnfg = configs/R9.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = RedD 2
+        slot1 = NM-1FE-TX
+        f1/0 = RedE 1
+        x = -52.7989898732
+        y = 34.5685424949
+        z = 1.0
+    [[ETHSW RedG]]
+        1 = access 1 R10 f0/0
+        2 = access 1 R11 f0/0
+        x = -267.431024229
+        y = 51.8822509938
+        z = 1.0
+    [[ETHSW RedE]]
+        1 = access 1 R9 f1/0
+        2 = access 1 R8 f1/0
+        3 = access 1 R10 f1/0
+        x = 2.68376618405
+        y = 159.362481734
+        z = 1.0
+    [[ETHSW RedD]]
+        1 = access 1 R7 f1/0
+        2 = access 1 R9 f0/0
+        3 = access 1 R8 f0/0
+        x = -27.0147186258
+        y = -58.4264068712
+        z = 1.0
+[GNS3-DATA]
+    configs = configs
+    m11 = 0.707106781187
+    m22 = 0.707106781187
