@@ -1,5 +1,4 @@
 autostart = False
-version = 0.8.3
 [127.0.0.1:7202]
     workingdir = /tmp
     udp = 10200
