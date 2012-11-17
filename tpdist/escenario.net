@@ -129,8 +129,10 @@ version = 0.8.3
         f0/0 = R4 f1/0
         slot1 = NM-1FE-TX
         f1/0 = RedD 1
-        x = -163.107647738
-        y = -157.764501988
+        slot2 = NM-1FE-TX
+        f2/0 = RedG 3
+        x = -164.5218613
+        y = -159.17871555
         z = 1.0
     [[ROUTER R11]]
         model = 3640
@@ -168,8 +170,9 @@ version = 0.8.3
     [[ETHSW RedG]]
         1 = access 1 R10 f0/0
         2 = access 1 R11 f0/0
-        x = -267.431024229
-        y = 51.8822509938
+        3 = access 1 R7 f2/0
+        x = -268.845237791
+        y = 50.4680374314
         z = 1.0
     [[ETHSW RedE]]
         1 = access 1 R9 f1/0
