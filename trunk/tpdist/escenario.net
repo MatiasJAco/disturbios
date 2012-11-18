@@ -1,5 +1,4 @@
 autostart = False
-version = 0.8.3
 [127.0.0.1:7202]
     workingdir = /tmp
     udp = 10200
@@ -411,45 +410,49 @@ version = 0.8.3
         z = 1.0
 [GNS3-DATA]
     configs = configs
-    m11 = 0.707106781187
-    m22 = 0.707106781187
+    m11 = 0.5
+    m22 = 0.5
     [[NOTE 1]]
+        text = "Rio Negro"
+        x = -209.303607231
+        y = 421.663563648
+    [[NOTE 2]]
         text = "Punta Indio"
         x = -323.854905783
         y = -180.791413922
-    [[NOTE 2]]
-        text = "Red O - Orlando"
-        x = 254.558441227
-        y = -141.193434176
     [[NOTE 3]]
         text = "Trelew"
         x = -319.612265096
         y = -377.367099092
     [[NOTE 4]]
-        text = "Rio Negro"
-        x = -209.303607231
-        y = 421.663563648
+        text = "Red O - Orlando"
+        x = 254.558441227
+        y = -141.193434176
     [[SHAPE 1]]
-        type = rectangle
-        x = -448.305699272
-        y = -32.5269119346
-        width = 108.894444303
-        height = 328.09754647
-    [[SHAPE 2]]
-        type = rectangle
-        x = -339.411254969
-        y = -188.090403796
-        width = 312.541197284
-        height = 398.808224589
-    [[SHAPE 3]]
-        type = rectangle
-        x = -26.8700576851
-        y = -100.409162928
-        width = 251.730014102
-        height = 312.132034356
-    [[SHAPE 4]]
         type = rectangle
         x = 250.31580054
         y = -151.320851174
         width = 140.007142675
         height = 407.293505963
+        z = -2.0
+    [[SHAPE 2]]
+        type = rectangle
+        x = -26.8700576851
+        y = -100.409162928
+        width = 251.730014102
+        height = 312.132034356
+        z = -2.0
+    [[SHAPE 3]]
+        type = rectangle
+        x = -339.411254969
+        y = -188.090403796
+        width = 312.541197284
+        height = 398.808224589
+        z = -2.0
+    [[SHAPE 4]]
+        type = rectangle
+        x = -448.305699272
+        y = -32.5269119346
+        width = 108.894444303
+        height = 328.09754647
+        z = -2.0
