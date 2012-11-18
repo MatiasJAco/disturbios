@@ -412,3 +412,463 @@ autostart = False
     configs = configs
     m11 = 0.707106781187
     m22 = 0.707106781187
+    [[NOTE 1]]
+        text = 2
+        x = 21.3777099026
+        y = -21.424068758
+        interface = RedL 2
+    [[NOTE 2]]
+        text = 1
+        x = 75.1911150685
+        y = 11.0386106164
+        interface = RedL 1
+    [[NOTE 3]]
+        text = 3
+        x = -3.76461558674
+        y = 23.6347863641
+        interface = RedL 3
+    [[NOTE 4]]
+        text = 1
+        x = 71.5613575578
+        y = 33.3083358844
+        interface = RedN 1
+    [[NOTE 5]]
+        text = 2
+        x = 35.5
+        y = 56.0
+        interface = RedN 2
+    [[NOTE 6]]
+        text = 1
+        x = 36.9272019291
+        y = 55.9745305745
+        interface = RedH 1
+    [[NOTE 7]]
+        text = 2
+        x = 16.3557446042
+        y = 51.1211828579
+        interface = RedH 2
+    [[NOTE 8]]
+        text = 2
+        x = -4.05745411473
+        y = 10.0663818828
+        interface = RedI 2
+    [[NOTE 9]]
+        text = 1
+        x = 70.6002134892
+        y = -3.18267481385
+        interface = RedI 1
+    [[NOTE 10]]
+        text = 3
+        x = -3.65434799503
+        y = 24.1815055512
+        interface = RedI 3
+    [[NOTE 11]]
+        text = 1
+        x = -1.51007620834
+        y = 0.825868754582
+        interface = RedJ 1
+    [[NOTE 12]]
+        text = 2
+        x = 21.1751255341
+        y = 53.3469941433
+        interface = RedD 2
+    [[NOTE 13]]
+        text = 3
+        x = 70.6992526516
+        y = 35.000331912
+        interface = RedD 3
+    [[NOTE 14]]
+        text = 1
+        x = 1.17200756454
+        y = -4.53263098949
+        interface = RedD 1
+    [[NOTE 15]]
+        text = 1
+        x = 17.9546239779
+        y = -19.9466240452
+        interface = RedE 1
+    [[NOTE 16]]
+        text = 3
+        x = -3.22298484714
+        y = 5.97351285205
+        interface = RedE 3
+    [[NOTE 17]]
+        text = 3
+        x = 53.38854382
+        y = -19.77708764
+        interface = RedG 3
+    [[NOTE 18]]
+        text = 2
+        x = 9.19082271319
+        y = 46.1301707677
+        interface = RedG 2
+    [[NOTE 19]]
+        text = 1
+        x = 69.7997170285
+        y = 36.5798302171
+        interface = RedG 1
+    [[NOTE 20]]
+        text = 2
+        x = 73.0863961818
+        y = 29.6844006834
+        interface = RedA 2
+    [[NOTE 21]]
+        text = 1
+        x = 1.86383148423
+        y = 37.6473593673
+        interface = RedA 1
+    [[NOTE 22]]
+        text = 5
+        x = 35.0361366245
+        y = 55.9973102942
+        interface = RedA 5
+    [[NOTE 23]]
+        text = 1
+        x = -1.1721899129
+        y = 31.9734306582
+        interface = RedB 1
+    [[NOTE 24]]
+        text = 4
+        x = 56.0052550497
+        y = 50.3443520152
+        interface = RedB 4
+    [[NOTE 25]]
+        text = f1/0
+        x = 50.5453760221
+        y = 57.9466240452
+        interface = R9 f1/0
+    [[NOTE 26]]
+        text = f0/0
+        x = 47.3248744659
+        y = -15.3469941433
+        interface = R9 f0/0
+    [[NOTE 27]]
+        text = f0/0
+        x = -2.19925265162
+        y = 2.99966808797
+        interface = R8 f0/0
+    [[NOTE 28]]
+        text = f1/0
+        x = 70.7139215191
+        y = 35.3289205733
+        interface = R8 f1/0
+    [[NOTE 29]]
+        text = f1/0
+        x = -4.58639618183
+        y = 8.31559931664
+        interface = R2 f1/0
+    [[NOTE 30]]
+        text = f0/0
+        x = 69.6721899129
+        y = 6.0265693418
+        interface = R2 f0/0
+    [[NOTE 31]]
+        text = f1/0
+        x = 66.6361685158
+        y = 0.352640632657
+        interface = R1 f1/0
+    [[NOTE 32]]
+        text = s0/0
+        x = 10.1200648776
+        y = 54.8101900146
+        interface = R1 s0/0
+    [[NOTE 33]]
+        text = f2/0
+        x = 15.11145618
+        y = 57.77708764
+        interface = R7 f2/0
+    [[NOTE 34]]
+        text = f1/0
+        x = 67.3279924355
+        y = 42.5326309895
+        interface = R7 f1/0
+    [[NOTE 35]]
+        text = f0/0
+        x = 72.999413412
+        y = 21.7833742991
+        interface = R7 f0/0
+    [[NOTE 36]]
+        text = s1/0
+        x = -1.4946532423
+        y = 42.2513924878
+        interface = R6 s1/0
+    [[NOTE 37]]
+        text = f0/0
+        x = 33.4638633755
+        y = -17.9973102942
+        interface = R6 f0/0
+    [[NOTE 38]]
+        text = f1/0
+        x = 47.067152203
+        y = 59.4448291343
+        interface = R5 f1/0
+    [[NOTE 39]]
+        text = f1/0
+        x = -6.99941341202
+        y = 22.2166257009
+        interface = R4 f1/0
+    [[NOTE 40]]
+        text = f0/0
+        x = 12.4947449503
+        y = -12.3443520152
+        interface = R4 f0/0
+    [[NOTE 41]]
+        text = 3
+        x = 53.700931383
+        y = 51.8673662706
+        interface = FR4 3
+    [[NOTE 42]]
+        text = 1
+        x = 64.8535825877
+        y = 27.6972290712
+        interface = FR4 1
+    [[NOTE 43]]
+        text = 1
+        x = 65.4927460605
+        y = 22.7382503401
+        interface = FR4 1
+    [[NOTE 44]]
+        text = 2
+        x = 39.4953931872
+        y = -14.9039609244
+        interface = FR4 2
+    [[NOTE 45]]
+        text = 2
+        x = 47.8276463719
+        y = -9.37462490043
+        interface = FR4 2
+    [[NOTE 46]]
+        text = 2
+        x = 43.6615197795
+        y = -12.1392929124
+        interface = FR4 2
+    [[NOTE 47]]
+        text = 3
+        x = -2.70093138297
+        y = -4.86736627064
+        interface = FR5 3
+    [[NOTE 48]]
+        text = 2
+        x = 21.143188369
+        y = -15.9616933187
+        interface = FR5 2
+    [[NOTE 49]]
+        text = 2
+        x = 16.1750775164
+        y = -15.3978896686
+        interface = FR5 2
+    [[NOTE 50]]
+        text = 1
+        x = 58.9339354021
+        y = 45.4584144129
+        interface = FR5 1
+    [[NOTE 51]]
+        text = 2
+        x = 39.7930333363
+        y = 61.8340860186
+        interface = FR6 2
+    [[NOTE 52]]
+        text = 4
+        x = -15.1319095332
+        y = 29.2207283909
+        interface = FR6 4
+    [[NOTE 53]]
+        text = 4
+        x = -14.4927460605
+        y = 24.2617496599
+        interface = FR6 4
+    [[NOTE 54]]
+        text = 2
+        x = 34.8249224836
+        y = 62.3978896686
+        interface = FR6 2
+    [[NOTE 55]]
+        text = 3
+        x = 43.1706502373
+        y = -12.0206843407
+        interface = FR6 3
+    [[NOTE 56]]
+        text = 3
+        x = 38.6997937312
+        y = -14.2593093879
+        interface = FR6 3
+    [[NOTE 57]]
+        text = 1
+        x = 64.9864253988
+        y = 26.1966604319
+        interface = FR6 1
+    [[NOTE 58]]
+        text = 1
+        x = 65.434784514
+        y = 21.2168035962
+        interface = FR6 1
+    [[NOTE 59]]
+        text = 1
+        x = 59.9946532423
+        y = 3.24860751224
+        interface = FR1 1
+    [[NOTE 60]]
+        text = 3
+        x = 16.7710627749
+        y = 63.4979344351
+        interface = FR1 3
+    [[NOTE 61]]
+        text = 3
+        x = 12.3002062688
+        y = 61.2593093879
+        interface = FR1 3
+    [[NOTE 62]]
+        text = 2
+        x = 45.1198370149
+        y = 58.3577393918
+        interface = FR1 2
+    [[NOTE 63]]
+        text = 3
+        x = -14.8831436292
+        y = 30.7630532395
+        interface = FR2 3
+    [[NOTE 64]]
+        text = 3
+        x = -14.434784514
+        y = 25.7831964038
+        interface = FR2 3
+    [[NOTE 65]]
+        text = 2
+        x = 5.88016298506
+        y = -11.3577393918
+        interface = FR2 2
+    [[NOTE 66]]
+        text = 1
+        x = 49.9802474218
+        y = 55.1341190199
+        interface = FR2 1
+    [[NOTE 67]]
+        text = 1
+        x = 48.3799351224
+        y = -9.31019001461
+        interface = FR3 1
+    [[NOTE 68]]
+        text = 2
+        x = 3.17235362812
+        y = 56.3746249004
+        interface = FR3 2
+    [[NOTE 69]]
+        text = 2
+        x = 11.5046068128
+        y = 61.9039609244
+        interface = FR3 2
+    [[NOTE 70]]
+        text = 2
+        x = 7.33848022047
+        y = 59.1392929124
+        interface = FR3 2
+    [[NOTE 71]]
+        text = f2/0
+        x = -3.06135755781
+        y = 4.69166411558
+        interface = R11 f2/0
+    [[NOTE 72]]
+        text = f0/0
+        x = 59.3091772868
+        y = -8.1301707677
+        interface = R11 f0/0
+    [[NOTE 73]]
+        text = f1/0
+        x = 70.9151904904
+        y = 34.7451296609
+        interface = R11 f1/0
+    [[NOTE 74]]
+        text = f1/0
+        x = 71.7229848471
+        y = 32.0264871479
+        interface = R10 f1/0
+    [[NOTE 75]]
+        text = f0/0
+        x = -1.29971702848
+        y = 1.42016978285
+        interface = R10 f0/0
+    [[NOTE 76]]
+        text = f1/0
+        x = 31.5727980709
+        y = -17.9745305745
+        interface = R13 f1/0
+    [[NOTE 77]]
+        text = f0/0
+        x = 72.5574541147
+        y = 27.9336181172
+        interface = R13 f0/0
+    [[NOTE 78]]
+        text = f1/0
+        x = -2.10021348918
+        y = 41.1826748139
+        interface = R12 f1/0
+    [[NOTE 79]]
+        text = f0/0
+        x = -4.91519049043
+        y = 9.25487033906
+        interface = R12 f0/0
+    [[NOTE 80]]
+        text = f2/0
+        x = 61.4232577679
+        y = -6.14459837801
+        interface = R12 f2/0
+    [[NOTE 81]]
+        text = s1/0
+        x = -0.433935402115
+        y = 0.0415855871333
+        interface = R15 s1/0
+    [[NOTE 82]]
+        text = f0/0
+        x = 47.1222900974
+        y = 59.424068758
+        interface = R15 f0/0
+    [[NOTE 83]]
+        text = f3/0
+        x = 52.1442553958
+        y = -13.1211828579
+        interface = R14 f3/0
+    [[NOTE 84]]
+        text = f2/0
+        x = -6.69111506855
+        y = 26.9613893836
+        interface = R14 f2/0
+    [[NOTE 85]]
+        text = f1/0
+        x = 70.0100762083
+        y = 37.1741312454
+        interface = R14 f1/0
+    [[NOTE 86]]
+        text = f0/0
+        x = 72.154347995
+        y = 13.8184944488
+        interface = R14 f0/0
+    [[NOTE 87]]
+        text = s1/0
+        x = 8.5197525782
+        y = -9.63411901994
+        interface = R17 s1/0
+    [[NOTE 88]]
+        text = f0/0
+        x = 33.0
+        y = -18.0
+        interface = R17 f0/0
+    [[NOTE 89]]
+        text = f0/0
+        x = 72.2646155867
+        y = 14.3652136359
+        interface = R16 f0/0
+    [[NOTE 90]]
+        text = f2/0
+        x = 18.932847797
+        y = -15.4448291343
+        interface = Internet f2/0
+    [[NOTE 91]]
+        text = f1/0
+        x = -4.71392151913
+        y = 8.67107942671
+        interface = Internet f1/0
+    [[NOTE 92]]
+        text = f0/0
+        x = 4.5767422321
+        y = 50.144598378
+        interface = Internet f0/0
