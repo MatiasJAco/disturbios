@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #########################################
-#Script de configuracion del Host C     #
+#Script de configuracion del FTP Server #
 #########################################
 
 if [ $# -ne 1 ];
@@ -19,10 +19,10 @@ iptables -F
 #Borrar todas las direcciones de ip asignada a la interfaz $1
 ip addr flush dev $1
 
-#A /25
+#B /24
 #Configura la direccion IP de la interfaz $1
 #ifconfig $1:0 up 10.92.27.7 netmask 255.255.255.128
-ifconfig $1 up 10.92.27.7 netmask 255.255.255.128
+ifconfig $1 up 10.92.27.1 netmask 255.255.255.128
 
 #Habilita IP forwarding (Aparentemente necesario para cuando hay subinterfaces)
 #echo 1 > /proc/sys/net/ipv4/ip_forward
@@ -67,6 +67,6 @@ route add default gw 10.92.27.5
 #Configurar el DNS 
 # DNS 1 Trelew
 
-echo "Host C Configurado"
+echo "Server FTP Configurado"
 
 exit 0
