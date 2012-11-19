@@ -65,7 +65,7 @@ route add -net 133.43.1.0 netmask 255.255.255.0 gw 10.92.27.5  metric 2
 route add default gw 10.92.27.5
 
 #Configurar el DNS 
-./dns1.sh
+# DNS 1 Trelew
 
 echo "Host C Configurado"
 
