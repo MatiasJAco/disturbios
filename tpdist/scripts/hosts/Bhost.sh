@@ -65,8 +65,9 @@ route add -net 133.43.1.0 netmask 255.255.255.0 gw 10.10.5.1  metric 1
 route add default gw 10.10.5.1
 
 #Configurar el DNS 
-#DNS 2 Rio negro
+# DNS 2 Rio Negro
+echo "nameserver 10.24.3.5" > /etc/resolv.conf
 
-echo "Host A Configurado"
+echo "Host B Configurado"
 
 exit 0

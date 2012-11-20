@@ -31,7 +31,8 @@ ifconfig $1 up 192.168.8.71 netmask 255.255.255.192
 route add default gw 192.168.8.67
 
 #Configurar el DNS 
-# DNS 1 Trelew
+# DNS 2 Rio Negro
+echo "nameserver 10.24.3.5" > /etc/resolv.conf
 
 echo "Server Web Configurado"
 
