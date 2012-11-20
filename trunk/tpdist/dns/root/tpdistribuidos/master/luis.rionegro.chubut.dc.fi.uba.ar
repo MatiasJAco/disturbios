@@ -1,0 +1,19 @@
+$ORIGIN rionegro.chubut.dc.fi.uba.ar.
+$TTL 2d
+; The SOA Resource Record (in the following format:)
+;name [ttl] [class] rr      name-server           e-mail             ( [...] )
+@           IN      SOA     dnsroot.bernardo5.chubut.dc.fi.uba.ar.   hostmaster.chubut.dc.fi.uba.ar.      (
+                        2011041101      ; Serial (usually YYYYMMDDSS): increment after any change
+                                8h      ; Refresh (8 hours)
+                                2h      ; Retry (2 hours)
+                                4w      ; Expire (4 weeks)
+                                3h )    ; NX (3 hours) TTL Negativ Cache
+
+
+r14.luis1                      IN      A       10.24.1.33
+r15.luis2                      IN      A       10.24.1.34
+r16.luis3                      IN      A       10.24.1.35
+luis4                          IN      A       10.24.1.36
+luis5                          IN      A       10.24.1.37
+
+localhost                      IN      A       127.0.0.1

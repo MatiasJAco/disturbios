@@ -1,0 +1,20 @@
+$ORIGIN puntaindio.chubut.dc.fi.uba.ar.
+$TTL 2d
+; The SOA Resource Record (in the following format:)
+;name [ttl] [class] rr      name-server           e-mail             ( [...] )
+@           IN      SOA     dnsroot.bernardo5.chubut.dc.fi.uba.ar.   hostmaster.chubut.dc.fi.uba.ar.      (
+                        2011041101      ; Serial (usually YYYYMMDDSS): increment after any change
+                                8h      ; Refresh (8 hours)
+                                2h      ; Retry (2 hours)
+                                4w      ; Expire (4 weeks)
+                                3h )    ; NX (3 hours) TTL Negativ Cache
+
+r13.hernan1                    IN      A       192.168.8.65
+r14.hernan2                    IN      A       192.168.8.66
+vrrp.hernan3                   IN      A       192.168.8.67
+hernan4                        IN      A       192.168.8.68
+hernan5                        IN      A       192.168.8.69
+hernan6                        IN      A       192.168.8.70
+webserver.hernan7              IN      A       192.168.8.71
+hernan8                        IN      A       192.168.8.72
+localhost                      IN      A       127.0.0.1
