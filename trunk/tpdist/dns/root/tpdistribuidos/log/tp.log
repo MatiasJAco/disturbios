@@ -1,0 +1,409 @@
+zone chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+running
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+running
+client 10.24.3.15#51543: transfer of 'chubut.dc.fi.uba.ar/IN': AXFR started
+client 10.24.3.15#51543: transfer of 'chubut.dc.fi.uba.ar/IN': AXFR ended
+client 10.24.3.15#49112: transfer of 'hernan.chubut.dc.fi.uba.ar/IN': AXFR started
+client 10.24.3.15#49112: transfer of 'hernan.chubut.dc.fi.uba.ar/IN': AXFR ended
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.27.92.10.IN-ADDR.ARPA/IN: has no NS records
+zone 0.27.92.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+running
+client 10.24.3.15#39599: transfer of 'chubut.dc.fi.uba.ar/IN': AXFR started
+client 10.24.3.15#39599: transfer of 'chubut.dc.fi.uba.ar/IN': AXFR ended
+client 10.24.3.15#58773: transfer of 'ariel.chubut.dc.fi.uba.ar/IN': AXFR started
+client 10.24.3.15#58773: transfer of 'ariel.chubut.dc.fi.uba.ar/IN': AXFR ended
+client 10.24.3.15#60453: transfer of 'chubut.dc.fi.uba.ar/IN': AXFR started
+client 10.24.3.15#60453: transfer of 'chubut.dc.fi.uba.ar/IN': AXFR ended
+client 10.24.3.15#50906: transfer of 'ariel.chubut.dc.fi.uba.ar/IN': AXFR started
+client 10.24.3.15#50906: transfer of 'ariel.chubut.dc.fi.uba.ar/IN': AXFR ended
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.27.92.10.IN-ADDR.ARPA/IN: has no NS records
+zone 0.27.92.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+running
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: NS 'dns2.chubut.dc.fi.uba.ar' has no address records (A or AAAA)
+zone chubut.dc.fi.uba.ar/IN: not loaded due to errors.
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 128.1.24.10.IN-ADDR.ARPA/IN: loading from master file /etc/bind/db.128.1.24.10 failed: file not found
+zone 128.1.24.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone 0.27.92.10.IN-ADDR.ARPA/IN: has no NS records
+zone 0.27.92.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+client 10.24.3.15#59023: transfer of 'ariel.chubut.dc.fi.uba.ar/IN': AXFR started
+client 10.24.3.15#59023: transfer of 'ariel.chubut.dc.fi.uba.ar/IN': AXFR ended
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: NS 'dns2.chubut.dc.fi.uba.ar' has no address records (A or AAAA)
+zone chubut.dc.fi.uba.ar/IN: not loaded due to errors.
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 128.1.24.10.IN-ADDR.ARPA/IN: loading from master file /etc/bind/db.128.1.24.10 failed: file not found
+zone 128.1.24.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone 0.27.92.10.IN-ADDR.ARPA/IN: has no NS records
+zone 0.27.92.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+running
+client 10.24.3.15#38054: transfer of 'ariel.chubut.dc.fi.uba.ar/IN': AXFR started
+client 10.24.3.15#38054: transfer of 'ariel.chubut.dc.fi.uba.ar/IN': AXFR ended
+client 10.24.3.15#35353: transfer of 'guido.chubut.dc.fi.uba.ar/IN': AXFR started
+client 10.24.3.15#35353: transfer of 'guido.chubut.dc.fi.uba.ar/IN': AXFR ended
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: NS 'dns2.chubut.dc.fi.uba.ar' has no address records (A or AAAA)
+zone chubut.dc.fi.uba.ar/IN: not loaded due to errors.
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 128.1.24.10.IN-ADDR.ARPA/IN: loading from master file /etc/bind/db.128.1.24.10 failed: file not found
+zone 128.1.24.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone 0.27.92.10.IN-ADDR.ARPA/IN: has no NS records
+zone 0.27.92.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+running
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: NS 'dns2.chubut.dc.fi.uba.ar' has no address records (A or AAAA)
+zone chubut.dc.fi.uba.ar/IN: not loaded due to errors.
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 128.1.24.10.IN-ADDR.ARPA/IN: loading from master file /etc/bind/db.128.1.24.10 failed: file not found
+zone 128.1.24.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone 0.27.92.10.IN-ADDR.ARPA/IN: has no NS records
+zone 0.27.92.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: NS 'dns2.chubut.dc.fi.uba.ar' has no address records (A or AAAA)
+zone chubut.dc.fi.uba.ar/IN: not loaded due to errors.
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 128.1.24.10.IN-ADDR.ARPA/IN: loading from master file /etc/bind/db.128.1.24.10 failed: file not found
+zone 128.1.24.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone 0.27.92.10.IN-ADDR.ARPA/IN: has no NS records
+zone 0.27.92.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+running
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: NS 'dns2.chubut.dc.fi.uba.ar' has no address records (A or AAAA)
+zone chubut.dc.fi.uba.ar/IN: not loaded due to errors.
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 128.1.24.10.IN-ADDR.ARPA/IN: loading from master file /etc/bind/db.128.1.24.10 failed: file not found
+zone 128.1.24.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone 0.27.92.10.IN-ADDR.ARPA/IN: has no NS records
+zone 0.27.92.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+running
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: loaded serial 2012041101
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 128.1.24.10.IN-ADDR.ARPA/IN: loading from master file /etc/bind/db.128.1.24.10 failed: file not found
+zone 128.1.24.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone 0.27.92.10.IN-ADDR.ARPA/IN: has no NS records
+zone 0.27.92.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2012041101)
+running
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+client 10.24.3.15#51616: transfer of 'chubut.dc.fi.uba.ar/IN': AXFR started
+client 10.24.3.15#51616: transfer of 'chubut.dc.fi.uba.ar/IN': AXFR ended
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: loaded serial 2012041101
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 128.1.24.10.IN-ADDR.ARPA/IN: loading from master file /etc/bind/db.128.1.24.10 failed: file not found
+zone 128.1.24.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone 0.27.92.10.IN-ADDR.ARPA/IN: has no NS records
+zone 0.27.92.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2012041101)
+running
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 192.168.0.25#53
+no longer listening on 10.24.1.138#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: loaded serial 2012041101
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 128.1.24.10.IN-ADDR.ARPA/IN: loading from master file /etc/bind/db.128.1.24.10 failed: file not found
+zone 128.1.24.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone 0.27.92.10.IN-ADDR.ARPA/IN: has no NS records
+zone 0.27.92.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+master/localhost.rev:3: no TTL specified; using SOA MINTTL instead
+zone 0.0.127.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 64.8.168.192.IN-ADDR.ARPA/IN: has no NS records
+zone 64.8.168.192.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loaded serial 2011041101
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2012041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.0.127.IN-ADDR.ARPA/IN: sending notifies (serial 2011041101)
+running
+received control channel command 'reconfig'
+loading configuration from '/etc/bind/named.conf'
+reading built-in trusted keys from file '/etc/bind/bind.keys'
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+listening on IPv4 interface eth0, 192.168.0.37#53
+sizing zone task pool based on 11 zones
+reloading configuration succeeded
+zone 128.1.24.10.IN-ADDR.ARPA/IN: loading from master file /etc/bind/db.128.1.24.10 failed: file not found
+zone 128.1.24.10.IN-ADDR.ARPA/IN: not loaded due to errors.
+any newly configured zones are now loaded
