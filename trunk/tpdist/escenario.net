@@ -1,5 +1,4 @@
 autostart = False
-version = 0.8.3
 [127.0.0.1:7202]
     workingdir = /tmp
     udp = 10200
@@ -37,6 +36,8 @@ version = 0.8.3
         cnfg = configs/R16.cfg
         slot0 = NM-1FE-TX
         f0/0 = RedL 3
+        slot1 = NM-1FE-TX
+        f1/0 = RedK 1
         x = -532.833477759
         y = 527.053823869
         z = 1.0
@@ -132,6 +133,10 @@ version = 0.8.3
         x = -898.703102168
         y = 217.997474683
         z = 1.0
+    [[ETHSW RedK]]
+        1 = access 1 R16 f1/0
+        x = -683.499999999
+        y = 559.999999999
     [[ETHSW RedJ]]
         1 = access 1 R14 f1/0
         x = -117.073593129
@@ -407,39 +412,30 @@ version = 0.8.3
     m11 = 0.353553390594
     m22 = 0.353553390594
     [[NOTE 1]]
+        text = "Frame Relay"
+        x = -763.675323681
+        y = 182.661471607
+    [[NOTE 2]]
         text = "Río Negro"
         x = 543.058007951
         y = 318.425973595
-    [[NOTE 2]]
-        text = "Punta Indio"
-        x = 409.019335983
-        y = -64.6421356237
     [[NOTE 3]]
         text = "Trelew"
         x = 420.01428535
         y = -442.5
     [[NOTE 4]]
-        text = "Frame Relay"
-        x = -763.675323681
-        y = 182.661471607
+        text = "Punta Indio"
+        x = 409.019335983
+        y = -64.6421356237
     [[SHAPE 1]]
-        type = ellipse
-        x = -1026.71904628
-        y = -107.48023074
-        width = 435.577777211
-        height = 398.808224589
-        fill_color = "#f0c3bb"
-        border_style = 2
+        type = rectangle
+        x = -568.513852074
+        y = -83.9999999999
+        width = 1102.51385207
+        height = 374.0
+        fill_color = "#aaaaff"
         z = -2.0
     [[SHAPE 2]]
-        type = rectangle
-        x = -808.930157677
-        y = 313.955410847
-        width = 1527.35064736
-        height = 313.955410847
-        fill_color = "#aaffff"
-        z = -2.0
-    [[SHAPE 3]]
         type = rectangle
         x = -766.0
         y = -464.0
@@ -447,11 +443,20 @@ version = 0.8.3
         height = 314.0
         fill_color = "#ffff7f"
         z = -2.0
-    [[SHAPE 4]]
+    [[SHAPE 3]]
         type = rectangle
-        x = -568.513852074
-        y = -83.9999999999
-        width = 1102.51385207
-        height = 374.0
-        fill_color = "#aaaaff"
+        x = -808.930157677
+        y = 313.955410847
+        width = 1527.35064736
+        height = 313.955410847
+        fill_color = "#aaffff"
+        z = -2.0
+    [[SHAPE 4]]
+        type = ellipse
+        x = -1026.71904628
+        y = -107.48023074
+        width = 435.577777211
+        height = 398.808224589
+        fill_color = "#f0c3bb"
+        border_style = 2
         z = -2.0
