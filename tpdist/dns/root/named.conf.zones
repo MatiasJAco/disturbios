@@ -10,72 +10,208 @@ zone "." in{
 //	Zona 	-->   chubut.dc.fi.uba.ar
 //#######################################################
 
-
 zone "chubut.dc.fi.uba.ar" in{
   type master;
   file "master/chubut.dc.fi.uba.ar";
-  allow-transfer {10.24.3.15;}; // slave server for the domain
-  allow-update{none;};
-};
-// reverse map for local address at chubut.dc.fi.uba.ar
-zone "1.24.10.IN-ADDR.ARPA" in{
-  type master;
-  file "/etc/bind/db.1.24.10";
-  allow-transfer {10.24.3.15;}; // slave server for the domain
+  allow-transfer {10.24.3.5;10.10.5.5;}; // slave server for the domain
   allow-update{none;};
 };
 
 //#######################################################
-//	Zona 	-->   ariel.chubut.dc.fi.uba.ar  -->10.92.27.0
+//	Zona 	-->   trelew.chubut.dc.fi.uba.ar
 //#######################################################
 
-zone "ariel.chubut.dc.fi.uba.ar" in{
+zone "trelew.chubut.dc.fi.uba.ar" in{
   type master;
-  file "master/ariel.chubut.dc.fi.uba.ar";
-  allow-transfer {10.24.3.15;}; // slave server for the domain
-  allow-update{none;};
-};
-// reverse map for local address at hernan.chubut.dc.fi.uba.ar
-zone "0.27.92.10.IN-ADDR.ARPA" in{
-  type master;
-  file "/etc/bind/db.0.27.92.10";
-  allow-transfer {10.24.3.15;}; // slave server for the domain
+  file "master/trelew.chubut.dc.fi.uba.ar";
+  allow-transfer {10.10.5.5;}; // slave server for the domain
   allow-update{none;};
 };
 
 //#######################################################
-//	Zona 	-->   guido.chubut.dc.fi.uba.ar  -->10.24.1.128
+//	Zona 	-->   puntaindio.chubut.dc.fi.uba.ar
 //#######################################################
 
-zone "guido.chubut.dc.fi.uba.ar" in{
+zone "puntaindio.chubut.dc.fi.uba.ar" in{
   type master;
-  file "master/guido.chubut.dc.fi.uba.ar";
-  allow-transfer {10.24.3.15;}; // slave server for the domain
-  allow-update{none;};
-};
-// reverse map for local address at hernan.chubut.dc.fi.uba.ar
-zone "128.1.24.10.IN-ADDR.ARPA" in{
-  type master;
-  file "/etc/bind/db.128.1.24.10";
-  allow-transfer {10.24.3.15;}; // slave server for the domain
+  file "master/puntaindio.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
   allow-update{none;};
 };
 
 //#######################################################
-//	Zona 	-->   hernan.chubut.dc.fi.uba.ar  -->192.168.8.64
+//	Zona 	-->   rionegro.chubut.dc.fi.uba.ar
 //#######################################################
 
-zone "hernan.chubut.dc.fi.uba.ar" in{
+zone "rionegro.chubut.dc.fi.uba.ar" in{
   type master;
-  file "master/hernan.chubut.dc.fi.uba.ar";
-  allow-transfer {10.24.3.15;}; // slave server for the domain
+  file "master/rionegro.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
   allow-update{none;};
 };
-// reverse map for local address at hernan.chubut.dc.fi.uba.ar
-zone "64.8.168.192.IN-ADDR.ARPA" in{
+
+//#######################################################
+//	Zona 	-->   ariel.trelew.chubut.dc.fi.uba.ar  -->10.92.27.0
+//#######################################################
+
+zone "ariel.trelew.chubut.dc.fi.uba.ar" in{
   type master;
-  file "/etc/bind/db.64.8.168.192";
-  allow-transfer {10.24.3.15;}; // slave server for the domain
+  file "master/ariel.trelew.chubut.dc.fi.uba.ar";
+  allow-transfer {10.10.5.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   bernardo.trelew.chubut.dc.fi.uba.ar  -->10.24.3.0
+//#######################################################
+
+zone "bernardo.trelew.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/bernardo.trelew.chubut.dc.fi.uba.ar";
+  allow-transfer {10.10.5.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   carlos.chubut.dc.fi.uba.ar  -->10.92.27.128
+//#######################################################
+
+zone "carlos.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/carlos.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   diego.puntaindio.chubut.dc.fi.uba.ar  -->10.24.1.0
+//#######################################################
+
+zone "diego.puntaindio.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/diego.puntaindio.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   elio.puntaindio.chubut.dc.fi.uba.ar  -->10.24.1.96
+//#######################################################
+
+zone "elio.puntaindio.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/elio.puntaindio.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   fernando.chubut.dc.fi.uba.ar  -->10.92.27.132
+//#######################################################
+
+zone "fernando.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/fernando.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   guido.puntaindio.chubut.dc.fi.uba.ar  -->10.24.1.128
+//#######################################################
+
+zone "guido.puntaindio.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/guido.puntaindio.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   hernan.puntaindio.chubut.dc.fi.uba.ar  -->192.168.8.64
+//#######################################################
+
+zone "hernan.puntaindio.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/hernan.puntaindio.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   ignacio.rionegro.chubut.dc.fi.uba.ar  -->10.10.5.0
+//#######################################################
+
+zone "ignacio.rionegro.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/ignacio.rionegro.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   juan.rionegro.chubut.dc.fi.uba.ar  -->10.24.1.112
+//#######################################################
+
+zone "juan.rionegro.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/juan.rionegro.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   ken.rionegro.chubut.dc.fi.uba.ar  -->10.92.27.136
+//#######################################################
+
+zone "ken.rionegro.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/ken.rionegro.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   luis.rionegro.chubut.dc.fi.uba.ar  -->10.24.1.32
+//#######################################################
+
+zone "luis.rionegro.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/luis.rionegro.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   manuel.chubut.dc.fi.uba.ar  -->172.43.0.64
+//#######################################################
+
+zone "manuel.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/manuel.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   nestor.puntaindio.chubut.dc.fi.uba.ar  -->10.24.1.64
+//#######################################################
+
+zone "nestor.puntaindio.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/nestor.puntaindio.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   orlando.chubut.dc.fi.uba.ar  -->133.43.1.0
+//#######################################################
+
+zone "orlando.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/orlando.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
   allow-update{none;};
 };
 
@@ -93,5 +229,44 @@ zone "localhost" in{
   zone "0.0.127.IN-ADDR.ARPA" in{
   type master;
   file "master/localhost.rev";
+  allow-update{none;};
+};
+
+//#######################################################
+//	Reverse Zones	
+//#######################################################
+
+zone "1.24.10.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.1.24.10";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+zone "27.92.10.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.27.92.10";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+zone "5.10.10.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.5.10.10";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+zone "8.168.192.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.8.168.192";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+zone "3.24.10.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.3.24.10";
+  allow-transfer {10.10.5.5;}; // slave server for the domain
   allow-update{none;};
 };
