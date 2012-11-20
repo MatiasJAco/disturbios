@@ -1,4 +1,5 @@
 autostart = False
+version = 0.8.3
 [127.0.0.1:7202]
     workingdir = /tmp
     udp = 10200
@@ -77,7 +78,7 @@ autostart = False
         slot1 = NM-4T
         s1/0 = FR5 1
         x = -598.539105243
-        y = 361.941125497
+        y = 364.769552622
         z = 1.0
     [[ROUTER R12]]
         model = 3640
@@ -90,8 +91,8 @@ autostart = False
         f1/0 = RedI 1
         slot2 = NM-4E
         e2/0 = Internet_SW 3
-        x = 607.828427125
-        y = 386.0
+        x = 603.828427125
+        y = 390.0
         z = 1.0
     [[ROUTER R13]]
         model = 3640
@@ -229,7 +230,7 @@ autostart = False
         slot1 = NM-4E
         e1/0 = Internet_SW 1
         x = 398.119841047
-        y = -265.470129472
+        y = -263.470129472
         z = 1.0
     [[ROUTER R1]]
         model = 3640
@@ -241,7 +242,7 @@ autostart = False
         slot1 = NM-1FE-TX
         f1/0 = RedA 1
         x = -663.962553522
-        y = -358.818325857
+        y = -361.646752982
         z = 1.0
     [[ROUTER R2]]
         model = 3640
@@ -288,7 +289,7 @@ autostart = False
         2 = access 1 R8 e1/0
         3 = access 1 R12 e2/0
         x = 671.606781187
-        y = 119.764501988
+        y = 128.249783362
         z = 1.0
 [127.0.0.1:7201]
     workingdir = /tmp
@@ -406,27 +407,28 @@ autostart = False
     m11 = 0.353553390594
     m22 = 0.353553390594
     [[NOTE 1]]
-        text = Frame Relay
-        x = -763.675323681
-        y = 182.661471607
+        text = "Río Negro"
+        x = 543.058007951
+        y = 318.425973595
     [[NOTE 2]]
-        text = Río Negro
-        x = 616.597113194
-        y = 584.298123321
+        text = "Punta Indio"
+        x = 409.019335983
+        y = -64.6421356237
     [[NOTE 3]]
-        text = Trelew
+        text = "Trelew"
         x = 420.01428535
         y = -442.5
     [[NOTE 4]]
-        text = Punta Indio
-        x = 409.019335983
-        y = -64.6421356237
+        text = "Frame Relay"
+        x = -763.675323681
+        y = 182.661471607
     [[SHAPE 1]]
         type = ellipse
         x = -1026.71904628
         y = -107.48023074
         width = 435.577777211
         height = 398.808224589
+        fill_color = "#f0c3bb"
         border_style = 2
         z = -2.0
     [[SHAPE 2]]
@@ -435,6 +437,7 @@ autostart = False
         y = 313.955410847
         width = 1527.35064736
         height = 313.955410847
+        fill_color = "#aaffff"
         z = -2.0
     [[SHAPE 3]]
         type = rectangle
@@ -442,6 +445,7 @@ autostart = False
         y = -464.0
         width = 1272.0
         height = 314.0
+        fill_color = "#ffff7f"
         z = -2.0
     [[SHAPE 4]]
         type = rectangle
@@ -449,4 +453,5 @@ autostart = False
         y = -83.9999999999
         width = 1102.51385207
         height = 374.0
+        fill_color = "#aaaaff"
         z = -2.0
