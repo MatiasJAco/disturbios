@@ -1,0 +1,12 @@
+;;; /etc/bind/master.localhost
+$TTL 1d ;
+$ORIGIN localhost.
+@   IN   SOA   @   hostmaster.localhost. (
+                 2011041101 ; serial
+                 3H ; refresh
+                 15M ; retry
+                 1w ; expire
+                 3h ; nx
+                 )
+@   IN   NS    @ ; localhost is the name server
+    IN   A     127.0.0.1 ; the loop-back address

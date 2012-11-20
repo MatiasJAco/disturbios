@@ -1,0 +1,97 @@
+// ----------------------- Zones ----------------------- 
+
+zone "." in{
+  type hint;
+  file "root.servers";
+};
+
+
+//#######################################################
+//	Zona 	-->   chubut.dc.fi.uba.ar
+//#######################################################
+
+
+zone "chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.15;}; // slave server for the domain
+  allow-update{none;};
+};
+// reverse map for local address at chubut.dc.fi.uba.ar
+zone "1.24.10.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.1.24.10";
+  allow-transfer {10.24.3.15;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   ariel.chubut.dc.fi.uba.ar  -->10.92.27.0
+//#######################################################
+
+zone "ariel.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/ariel.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.15;}; // slave server for the domain
+  allow-update{none;};
+};
+// reverse map for local address at hernan.chubut.dc.fi.uba.ar
+zone "0.27.92.10.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.0.27.92.10";
+  allow-transfer {10.24.3.15;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   guido.chubut.dc.fi.uba.ar  -->10.24.1.128
+//#######################################################
+
+zone "guido.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/guido.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.15;}; // slave server for the domain
+  allow-update{none;};
+};
+// reverse map for local address at hernan.chubut.dc.fi.uba.ar
+zone "128.1.24.10.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.128.1.24.10";
+  allow-transfer {10.24.3.15;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   hernan.chubut.dc.fi.uba.ar  -->192.168.8.64
+//#######################################################
+
+zone "hernan.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/hernan.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.15;}; // slave server for the domain
+  allow-update{none;};
+};
+// reverse map for local address at hernan.chubut.dc.fi.uba.ar
+zone "64.8.168.192.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.64.8.168.192";
+  allow-transfer {10.24.3.15;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	
+//#######################################################
+
+// local host domain (required)
+zone "localhost" in{
+  type master;
+  file "/etc/bind/master.localhost";
+  allow-update{none;};
+};
+// localhost reverse map
+  zone "0.0.127.IN-ADDR.ARPA" in{
+  type master;
+  file "master/localhost.rev";
+  allow-update{none;};
+};
