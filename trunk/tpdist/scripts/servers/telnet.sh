@@ -64,7 +64,8 @@ route add -net 133.43.1.0 netmask 255.255.255.0 gw 10.24.1.67  metric 2
 route add default gw 10.24.1.66
 
 #Configurar el DNS 
-# DNS 1 Trelew
+# DNS 2 Punta Indio
+echo "nameserver 10.24.3.5" > /etc/resolv.conf
 
 echo "Server FTP Configurado"
 
