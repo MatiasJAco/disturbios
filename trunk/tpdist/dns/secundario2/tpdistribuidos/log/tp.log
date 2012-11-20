@@ -1,0 +1,572 @@
+zone chubut.dc.fi.uba.ar/IN: has 0 SOA records
+zone chubut.dc.fi.uba.ar/IN: has no NS records
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone 3.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (REFUSED) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 3.24.10.IN-ADDR.ARPA/IN: Transfer started.
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: connected using 10.24.3.15#34117
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: failed while receiving responses: NOTAUTH
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: Transfer completed: 0 messages, 0 records, 0 bytes, 0.125 secs (0 bytes/sec)
+zone chubut.dc.fi.uba.ar/IN: Transfer started.
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#40454
+zone chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 6 records, 197 bytes, 0.188 secs (1047 bytes/sec)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: has 0 SOA records
+zone chubut.dc.fi.uba.ar/IN: has no NS records
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone chubut.dc.fi.uba.ar/IN: Transfer started.
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#48440
+zone chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 6 records, 197 bytes, 0.150 secs (1313 bytes/sec)
+zone 3.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (REFUSED) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 3.24.10.IN-ADDR.ARPA/IN: Transfer started.
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: connected using 10.24.3.15#43413
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: failed while receiving responses: NOTAUTH
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: Transfer completed: 0 messages, 0 records, 0 bytes, 0.186 secs (0 bytes/sec)
+zone 3.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (REFUSED) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 3.24.10.IN-ADDR.ARPA/IN: Transfer started.
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: connected using 10.24.3.15#36724
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: failed while receiving responses: NOTAUTH
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: Transfer completed: 0 messages, 0 records, 0 bytes, 0.124 secs (0 bytes/sec)
+zone 3.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (REFUSED) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 3.24.10.IN-ADDR.ARPA/IN: Transfer started.
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: connected using 10.24.3.15#33706
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: failed while receiving responses: NOTAUTH
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: Transfer completed: 0 messages, 0 records, 0 bytes, 0.102 secs (0 bytes/sec)
+zone 3.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (REFUSED) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 3.24.10.IN-ADDR.ARPA/IN: Transfer started.
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: connected using 10.24.3.15#46377
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: failed while receiving responses: NOTAUTH
+transfer of '3.24.10.IN-ADDR.ARPA/IN' from 10.24.1.138#53: Transfer completed: 0 messages, 0 records, 0 bytes, 0.131 secs (0 bytes/sec)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: has 0 SOA records
+zone chubut.dc.fi.uba.ar/IN: has no NS records
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone chubut.dc.fi.uba.ar/IN: Transfer started.
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#58415
+zone chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 6 records, 197 bytes, 0.104 secs (1894 bytes/sec)
+client 10.24.1.138#50707: received notify for zone 'chubut.dc.fi.uba.ar'
+zone chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#50707: zone is up to date
+client 10.24.1.138#19131: received notify for zone 'hernan.chubut.dc.fi.uba.ar': not authoritative
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: has 0 SOA records
+zone chubut.dc.fi.uba.ar/IN: has no NS records
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone chubut.dc.fi.uba.ar/IN: Transfer started.
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#51543
+zone chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 7 records, 222 bytes, 0.172 secs (1290 bytes/sec)
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: Transfer started.
+transfer of 'hernan.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#49112
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone hernan.chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'hernan.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 8 records, 271 bytes, 0.108 secs (2509 bytes/sec)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+client 10.24.1.138#17481: received notify for zone 'hernan.chubut.dc.fi.uba.ar'
+zone hernan.chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#17481: zone is up to date
+client 10.24.1.138#23475: received notify for zone 'chubut.dc.fi.uba.ar'
+zone chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#23475: zone is up to date
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+client 10.24.1.138#40324: received notify for zone 'chubut.dc.fi.uba.ar'
+zone chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#40324: zone is up to date
+client 10.24.1.138#7911: received notify for zone 'ariel.chubut.dc.fi.uba.ar': not authoritative
+client 10.24.1.138#7911: received notify for zone 'hernan.chubut.dc.fi.uba.ar'
+zone hernan.chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#7911: zone is up to date
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: has 0 SOA records
+zone chubut.dc.fi.uba.ar/IN: has no NS records
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+running
+zone chubut.dc.fi.uba.ar/IN: Transfer started.
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#39599
+zone chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 7 records, 222 bytes, 0.188 secs (1180 bytes/sec)
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: Transfer started.
+transfer of 'ariel.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#58773
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone ariel.chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'ariel.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 8 records, 270 bytes, 0.168 secs (1607 bytes/sec)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+dumping master file: master/tmp-A20Xc6GPk7: open: file not found
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+dumping master file: master/tmp-Wuqj3KBMm8: open: file not found
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: has 0 SOA records
+zone chubut.dc.fi.uba.ar/IN: has no NS records
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone chubut.dc.fi.uba.ar/IN: Transfer started.
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#60453
+zone chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 7 records, 222 bytes, 0.110 secs (2018 bytes/sec)
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: Transfer started.
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+transfer of 'ariel.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#50906
+zone ariel.chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'ariel.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 8 records, 270 bytes, 0.114 secs (2368 bytes/sec)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+dumping master file: master/tmp-4ZuVbf0TyB: open: file not found
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+client 10.24.1.138#41360: received notify for zone 'chubut.dc.fi.uba.ar'
+zone chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#41360: zone is up to date
+client 10.24.1.138#57700: received notify for zone 'ariel.chubut.dc.fi.uba.ar'
+zone ariel.chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#57700: zone is up to date
+client 10.24.1.138#57700: received notify for zone 'hernan.chubut.dc.fi.uba.ar'
+zone hernan.chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#57700: zone is up to date
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+dumping master file: master/tmp-lERhtODBJw: open: file not found
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+dumping master file: master/tmp-5WCBj2qMNX: open: file not found
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: has 0 SOA records
+zone chubut.dc.fi.uba.ar/IN: has no NS records
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: Transfer started.
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+transfer of 'ariel.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#59023
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone ariel.chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'ariel.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 8 records, 264 bytes, 0.131 secs (2015 bytes/sec)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+dumping master file: master/tmp-pqTi4pT9yy: open: file not found
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+dumping master file: master/tmp-wXro2jUxJG: open: file not found
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: has 0 SOA records
+zone chubut.dc.fi.uba.ar/IN: has no NS records
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+running
+zone ariel.chubut.dc.fi.uba.ar/IN: Transfer started.
+transfer of 'ariel.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#38054
+zone ariel.chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'ariel.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 8 records, 264 bytes, 0.169 secs (1562 bytes/sec)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: Transfer started.
+transfer of 'guido.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#35353
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone guido.chubut.dc.fi.uba.ar/IN: transferred serial 2011041101
+transfer of 'guido.chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 7 records, 238 bytes, 0.189 secs (1259 bytes/sec)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: has 0 SOA records
+zone chubut.dc.fi.uba.ar/IN: has no NS records
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: has 0 SOA records
+zone chubut.dc.fi.uba.ar/IN: has no NS records
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone chubut.dc.fi.uba.ar/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+client 10.24.1.138#18374: received notify for zone 'chubut.dc.fi.uba.ar'
+zone chubut.dc.fi.uba.ar/IN: Transfer started.
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: connected using 10.24.3.15#51616
+zone chubut.dc.fi.uba.ar/IN: transferred serial 2012041101
+transfer of 'chubut.dc.fi.uba.ar/IN' from 10.24.1.138#53: Transfer completed: 1 messages, 7 records, 219 bytes, 0.110 secs (1990 bytes/sec)
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2012041101)
+client 10.24.1.138#5072: received notify for zone 'ariel.chubut.dc.fi.uba.ar'
+zone ariel.chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#5072: zone is up to date
+client 10.24.1.138#5072: received notify for zone 'hernan.chubut.dc.fi.uba.ar'
+zone hernan.chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#5072: zone is up to date
+client 10.24.1.138#5072: received notify for zone 'guido.chubut.dc.fi.uba.ar'
+zone guido.chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#5072: zone is up to date
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: loaded serial 2012041101
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2012041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+client 10.24.1.138#44478: received notify for zone 'ariel.chubut.dc.fi.uba.ar'
+zone ariel.chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#44478: zone is up to date
+client 10.24.1.138#62566: received notify for zone 'chubut.dc.fi.uba.ar'
+zone chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#62566: zone is up to date
+client 10.24.1.138#62566: received notify for zone 'guido.chubut.dc.fi.uba.ar'
+zone guido.chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#62566: zone is up to date
+client 10.24.1.138#62566: received notify for zone 'hernan.chubut.dc.fi.uba.ar'
+zone hernan.chubut.dc.fi.uba.ar/IN: notify from 10.24.1.138#62566: zone is up to date
+received control channel command 'stop -p'
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+no longer listening on 127.0.0.1#53
+no longer listening on 10.24.3.15#53
+exiting
+zone chubut.dc.fi.uba.ar/IN: loaded serial 2012041101
+zone ariel.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone guido.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone hernan.chubut.dc.fi.uba.ar/IN: loaded serial 2011041101
+zone 1.24.10.IN-ADDR.ARPA/IN: loaded serial 2011041101
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+managed-keys-zone ./IN: loading from master file managed-keys.bind failed: file not found
+managed-keys-zone ./IN: loaded serial 0
+running
+zone chubut.dc.fi.uba.ar/IN: sending notifies (serial 2012041101)
+zone ariel.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone guido.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone hernan.chubut.dc.fi.uba.ar/IN: sending notifies (serial 2011041101)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 1.24.10.IN-ADDR.ARPA/IN: refresh: could not set file modification time of '/etc/bind/db.1.24.10': permission denied
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: unexpected rcode (SERVFAIL) from master 10.24.1.138#53 (source 0.0.0.0#0)
+received control channel command 'reconfig'
+loading configuration from '/etc/bind/named.conf'
+reading built-in trusted keys from file '/etc/bind/bind.keys'
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+listening on IPv4 interface eth0, 192.168.0.44#53
+no longer listening on 10.24.3.15#53
+sizing zone task pool based on 11 zones
+reloading configuration succeeded
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+any newly configured zones are now loaded
+received control channel command 'reconfig'
+loading configuration from '/etc/bind/named.conf'
+reading built-in trusted keys from file '/etc/bind/bind.keys'
+using default UDP/IPv4 port range: [1024, 65535]
+using default UDP/IPv6 port range: [1024, 65535]
+sizing zone task pool based on 11 zones
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: failure trying master 10.24.1.138#53 (source 0.0.0.0#0): operation canceled
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: failure trying master 10.24.1.138#53 (source 0.0.0.0#0): operation canceled
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: failure trying master 10.24.1.138#53 (source 0.0.0.0#0): operation canceled
+reloading configuration succeeded
+zone 0.0.127.IN-ADDR.ARPA/IN: loading from master file slave/localhost.rev failed: file not found
+zone 0.0.127.IN-ADDR.ARPA/IN: not loaded due to errors.
+zone localhost/IN: loading from master file /slave/slave.localhost failed: file not found
+zone localhost/IN: not loaded due to errors.
+any newly configured zones are now loaded
+zone 128.1.24.10.IN-ADDR.ARPA/IN: refresh: retry limit for master 10.24.1.138#53 exceeded (source 0.0.0.0#0)
+zone 128.1.24.10.IN-ADDR.ARPA/IN: Transfer started.
+zone 64.8.168.192.IN-ADDR.ARPA/IN: refresh: retry limit for master 10.24.1.138#53 exceeded (source 0.0.0.0#0)
+zone 64.8.168.192.IN-ADDR.ARPA/IN: Transfer started.
+zone 0.27.92.10.IN-ADDR.ARPA/IN: refresh: retry limit for master 10.24.1.138#53 exceeded (source 0.0.0.0#0)
+zone 0.27.92.10.IN-ADDR.ARPA/IN: zone transfer deferred due to quota
