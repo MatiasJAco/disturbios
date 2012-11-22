@@ -1,0 +1,90 @@
+// ----------------------- Zones ----------------------- 
+
+zone "." in{
+  type hint;
+  file "root.servers";
+};
+
+
+//#######################################################
+//	Zona 	-->   chubut.dc.fi.uba.ar
+//#######################################################
+
+zone "chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;10.10.5.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   trelew.chubut.dc.fi.uba.ar
+//#######################################################
+
+zone "trelew.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/trelew.chubut.dc.fi.uba.ar";
+  allow-transfer {10.10.5.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   puntaindio.chubut.dc.fi.uba.ar
+//#######################################################
+
+zone "puntaindio.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/puntaindio.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Zona 	-->   rionegro.chubut.dc.fi.uba.ar
+//#######################################################
+
+zone "rionegro.chubut.dc.fi.uba.ar" in{
+  type master;
+  file "master/rionegro.chubut.dc.fi.uba.ar";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+//#######################################################
+//	Reverse Zones	
+//#######################################################
+
+zone "1.24.10.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.1.24.10";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+zone "27.92.10.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.27.92.10";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+zone "5.10.10.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.5.10.10";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+zone "8.168.192.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.8.168.192";
+  allow-transfer {10.24.3.5;}; // slave server for the domain
+  allow-update{none;};
+};
+
+zone "3.24.10.IN-ADDR.ARPA" in{
+  type master;
+  file "/etc/bind/db.3.24.10";
+  allow-transfer {10.10.5.5;}; // slave server for the domain
+  allow-update{none;};
+};
