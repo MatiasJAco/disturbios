@@ -1,4 +1,5 @@
 autostart = False
+version = 0.8.3
 [127.0.0.1:7202]
     workingdir = /tmp
     udp = 10200
@@ -69,6 +70,8 @@ autostart = False
         x = -153.235498012
         y = 461.514718626
         z = 1.0
+        hx = 42.7842712474
+        hy = -22.1715728753
     [[ROUTER R15]]
         model = 3640
         console = 2020
@@ -90,10 +93,10 @@ autostart = False
         f0/0 = R11 f1/0
         slot1 = NM-1FE-TX
         f1/0 = RedI 1
-        slot2 = NM-4E
-        e2/0 = Internet_SW 3
-        x = 603.828427125
-        y = 390.0
+        slot2 = NM-1FE-TX
+        f2/0 = Internet f2/0
+        x = 602.414213563
+        y = 391.414213562
         z = 1.0
     [[ROUTER R13]]
         model = 3640
@@ -137,6 +140,7 @@ autostart = False
         1 = access 1 R16 f1/0
         x = -683.499999999
         y = 559.999999999
+        z = 1.0
     [[ETHSW RedJ]]
         1 = access 1 R14 f1/0
         x = -117.073593129
@@ -225,6 +229,8 @@ autostart = False
         x = 89.7329726952
         y = -212.306565824
         z = 1.0
+        hx = 60.0121933087
+        hy = -12.2720779387
     [[ROUTER R5]]
         model = 3640
         console = 2019
@@ -232,8 +238,9 @@ autostart = False
         cnfg = configs/R5.cfg
         slot0 = NM-1FE-TX
         f0/0 = RedB 5
-        slot1 = NM-4E
-        e1/0 = Internet_SW 1
+        slot1 = NM-1FE-TX
+        f1/0 = Internet f0/0
+        slot2 = NM-1FE-TX
         x = 398.119841047
         y = -263.470129472
         z = 1.0
@@ -289,13 +296,6 @@ autostart = False
         x = -399.673664916
         y = -310.872149726
         z = 1.0
-    [[ETHSW Internet_SW]]
-        1 = access 1 R5 e1/0
-        2 = access 1 R8 e1/0
-        3 = access 1 R12 e2/0
-        x = 671.606781187
-        y = 128.249783362
-        z = 1.0
 [127.0.0.1:7201]
     workingdir = /tmp
     udp = 10100
@@ -318,6 +318,8 @@ autostart = False
         x = -196.546247919
         y = 232.558441227
         z = 1.0
+        hx = 63.997474683
+        hy = -9.44365081393
     [[FRSW FR1]]
         1:16 = 3:16
         1:615 = 3:615
@@ -364,9 +366,9 @@ autostart = False
         cnfg = configs/R8.cfg
         slot0 = NM-1FE-TX
         f0/0 = RedD 3
-        slot1 = NM-4E
-        e1/0 = Internet_SW 2
-        x = 409.859956417
+        slot1 = NM-1FE-TX
+        f1/0 = Internet f1/0
+        x = 410.859956417
         y = 123.497474683
         z = 1.0
     [[ROUTER R9]]
@@ -381,6 +383,8 @@ autostart = False
         x = 217.201010127
         y = 132.568542495
         z = 1.0
+        hx = 44.4558441227
+        hy = -19.3431457505
     [[ETHSW RedG]]
         1 = access 1 R10 f0/0
         2 = access 1 R11 f0/0
@@ -407,26 +411,51 @@ autostart = False
         x = -441.5
         y = 84.0
         z = 1.0
+[127.0.0.1:7204]
+    workingdir = /tmp
+    udp = 10400
+    [[3640]]
+        image = /root/ios/IOS/c3640-js-mz.124-10.bin
+        idlepc = 0x604eb190
+        sparsemem = True
+        ghostios = True
+        chassis = 3640
+    [[ROUTER Internet]]
+        model = 3640
+        console = 2023
+        aux = 2520
+        cnfg = configs/Internet.cfg
+        slot0 = NM-1FE-TX
+        f0/0 = R5 f1/0
+        slot1 = NM-1FE-TX
+        f1/0 = R8 f1/0
+        slot2 = NM-1FE-TX
+        f2/0 = R12 f2/0
+        x = 773.101730551
+        y = 127.906637611
+        z = 1.0
+        hx = 7.89949493659
+        hy = -25.0
 [GNS3-DATA]
     configs = configs
-    m11 = 0.353553390594
-    m22 = 0.353553390594
+    m11 = 0.500000000001
+    m22 = 0.500000000001
     [[NOTE 1]]
+        text = "Punta Indio"
+        x = 409.019335983
+        y = -64.6421356237
+    [[NOTE 2]]
         text = "Frame Relay"
         x = -763.675323681
         y = 182.661471607
-    [[NOTE 2]]
-        text = "Río Negro"
-        x = 543.058007951
-        y = 318.425973595
     [[NOTE 3]]
         text = "Trelew"
         x = 420.01428535
         y = -442.5
     [[NOTE 4]]
-        text = "Punta Indio"
-        x = 409.019335983
-        y = -64.6421356237
+        text = "Río Negro"
+        x = 543.058007951
+        y = 318.425973595
     [[SHAPE 1]]
         type = rectangle
         x = -568.513852074
