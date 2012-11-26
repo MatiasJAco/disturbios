@@ -47,3 +47,11 @@ zone "8.168.192.in-addr.arpa" in{
  file "master/8.168.192.IN-ADDR.ARPA.rev";
 };
 
+//Bernardo
+//-----
+
+zone "3.24.10.in-addr.arpa" in{
+ type master;
+ file "master/3.24.10.IN-ADDR.ARPA.rev";
+};
+
