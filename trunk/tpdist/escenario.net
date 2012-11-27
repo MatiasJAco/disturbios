@@ -18,8 +18,8 @@ version = 0.8.3
         f0/0 = RedG 1
         slot1 = NM-1FE-TX
         f1/0 = RedE 3
-        x = -106.404112295
-        y = 99.6639969241
+        x = 105.595887705
+        y = 167.663996924
         z = 1.0
 [127.0.0.1:7203]
     workingdir = /tmp
@@ -39,8 +39,8 @@ version = 0.8.3
         f0/0 = RedL 3
         slot1 = NM-1FE-TX
         f1/0 = RedK 1
-        x = -532.833477759
-        y = 527.053823869
+        x = -386.833477759
+        y = 521.053823869
         z = 1.0
     [[ROUTER R17]]
         model = 3640
@@ -67,11 +67,11 @@ version = 0.8.3
         f2/0 = RedL 1
         slot3 = NM-1FE-TX
         f3/0 = RedH 2
-        x = -93.2354980121
-        y = 461.514718626
+        x = 13.1076477382
+        y = 474.769552622
         z = 1.0
-        hx = 42.7842712474
-        hy = -22.1715728753
+        hx = 36.7842712474
+        hy = -26.1715728753
     [[ROUTER R15]]
         model = 3640
         console = 2020
@@ -107,8 +107,8 @@ version = 0.8.3
         f0/0 = RedI 2
         slot1 = NM-1FE-TX
         f1/0 = RedH 1
-        x = 251.024386617
-        y = 383.597979746
+        x = 27.3919189856
+        y = 393.455844122
         z = 1.0
     [[FRSW FR2]]
         1:117 = 3:117
@@ -138,33 +138,36 @@ version = 0.8.3
         z = 1.0
     [[ETHSW RedK]]
         1 = access 1 R16 f1/0
-        x = -677.499999999
-        y = 479.999999999
+        x = -269.5
+        y = 565.999999999
         z = 1.0
     [[ETHSW RedJ]]
         1 = access 1 R14 f1/0
-        x = -13.0735931292
-        y = 552.852813742
+        x = -89.7598846301
+        y = 569.137084989
         z = 1.0
     [[ETHSW RedI]]
         1 = access 1 R12 f1/0
         2 = access 1 R13 f0/0
         3 = access 1 R14 f0/0
-        x = 364.288888605
-        y = 471.539105243
+        4 = access 1 nio_tap:tap2
+        5 = access 1 nio_tap:tap4
+        x = 389.744732728
+        y = 437.597979746
         z = 1.0
     [[ETHSW RedH]]
         1 = access 1 R13 f1/0
         2 = access 1 R14 f3/0
-        x = -97.2329726962
-        y = 378.928932188
+        3 = access 1 nio_tap:tap7
+        x = -109.63499295
+        y = 412.04163056
         z = 1.0
     [[ETHSW RedL]]
         1 = access 1 R14 f2/0
         2 = access 1 R15 f0/0
         3 = access 1 R16 f0/0
-        x = -386.505050634
-        y = 464.887301628
+        x = -428.505050634
+        y = 448.887301628
         z = 1.0
 [127.0.0.1:7200]
     workingdir = /tmp
@@ -285,8 +288,9 @@ version = 0.8.3
         2 = access 1 R3 f1/0
         4 = access 1 R4 f0/0
         5 = access 1 R5 f0/0
-        x = 97.4999999997
-        y = -324.0
+        6 = access 1 nio_tap:tap5
+        x = 79.4999999997
+        y = -278.0
         z = 1.0
     [[ETHSW RedA]]
         1 = access 1 R1 f1/0
@@ -294,6 +298,7 @@ version = 0.8.3
         4 = access 1 R3 f0/0
         5 = access 1 R6 f0/0
         6 = access 1 nio_tap:tap0
+        7 = access 1 nio_tap:tap6
         x = -329.673664916
         y = -286.872149726
         z = 1.0
@@ -316,8 +321,8 @@ version = 0.8.3
         f1/0 = R12 f0/0
         slot2 = NM-1FE-TX
         f2/0 = RedN 1
-        x = -4.54624791938
-        y = 218.558441227
+        x = -8.54624791937
+        y = 240.558441227
         z = 1.0
         hx = 63.997474683
         hy = -9.44365081393
@@ -357,8 +362,8 @@ version = 0.8.3
         f1/0 = RedD 1
         slot2 = NM-1FE-TX
         f2/0 = RedG 3
-        x = -119.859956417
-        y = -23.7228714273
+        x = -25.8599564172
+        y = -33.7228714273
         z = 1.0
     [[ROUTER R8]]
         model = 3640
@@ -381,8 +386,8 @@ version = 0.8.3
         f0/0 = RedD 2
         slot1 = NM-1FE-TX
         f1/0 = RedE 1
-        x = 127.201010127
-        y = 190.568542495
+        x = 171.201010127
+        y = 122.568542495
         z = 1.0
         hx = 44.4558441227
         hy = -19.3431457505
@@ -390,14 +395,16 @@ version = 0.8.3
         1 = access 1 R10 f0/0
         2 = access 1 R11 f0/0
         3 = access 1 R7 f2/0
-        x = -267.698051533
-        y = 103.556349186
+        4 = access 1 nio_tap:tap3
+        5 = access 1 nio_tap:tap8
+        x = -17.6980515335
+        y = 133.556349186
         z = 1.0
     [[ETHSW RedE]]
         1 = access 1 R9 f1/0
         3 = access 1 R10 f1/0
-        x = 35.4289321881
-        y = 114.735064736
+        x = 211.428932188
+        y = 202.735064736
         z = 1.0
         hx = 10.0
         hy = -23.0
@@ -406,12 +413,13 @@ version = 0.8.3
         2 = access 1 R9 f0/0
         3 = access 1 R8 f0/0
         4 = access 1 nio_tap:tap1
-        x = 260.298989873
-        y = 159.330952442
+        x = 302.298989873
+        y = 131.330952442
         z = 1.0
     [[ETHSW RedN]]
         1 = access 1 R11 f2/0
         2 = access 1 R17 f0/0
+        3 = access 1 nio_tap:tap9
         x = -365.5
         y = 192.0
         z = 1.0
@@ -445,21 +453,56 @@ version = 0.8.3
     m11 = 0.500000000001
     m22 = 0.500000000001
     [[NOTE 1]]
+        text = "Punta Indio"
+        x = 109.019335984
+        y = -34.6421356238
+    [[NOTE 2]]
         text = "Frame Relay"
         x = -763.675323681
         y = 182.661471607
-    [[NOTE 2]]
-        text = "Río Negro"
-        x = 635.058007951
-        y = 510.425973595
     [[NOTE 3]]
         text = "Trelew"
-        x = 326.01428535
-        y = -386.5
+        x = 90.0142853505
+        y = -444.5
     [[NOTE 4]]
-        text = "Punta Indio"
-        x = 37.0193359842
-        y = -38.6421356238
+        text = "Río Negro"
+        x = 93.0580079521
+        y = 318.425973595
+    [[Cloud TelServer]]
+        x = -231.5
+        y = 133.0
+        z = 1.0
+        connections = RedN:3:nio_tap:tap9 RedG:5:nio_tap:tap8
+    [[Cloud WebServer]]
+        x = -335.499999999
+        y = 356.999999999
+        z = 1.0
+        connections = RedH:3:nio_tap:tap7
+    [[Cloud FTPServer]]
+        x = -383.499999999
+        y = -201.0
+        z = 1.0
+        connections = RedA:7:nio_tap:tap6
+    [[Cloud DNS_2]]
+        x = 144.5
+        y = -384.999999999
+        z = 1.0
+        connections = RedB:6:nio_tap:tap5
+    [[Cloud DNS_1]]
+        x = 226.499999999
+        y = 548.999999999
+        z = 1.0
+        connections = RedI:5:nio_tap:tap4
+    [[Cloud DNSroot]]
+        x = -223.5
+        y = -11.0
+        z = 1.0
+        connections = RedG:4:nio_tap:tap3
+    [[Cloud Host_B]]
+        x = 469.2148622
+        y = 513.7148622
+        z = 1.0
+        connections = RedI:4:nio_tap:tap2
     [[Cloud Host_A]]
         x = 206.499999999
         y = 4.99999999992
@@ -472,11 +515,11 @@ version = 0.8.3
         connections = RedA:6:nio_tap:tap0
     [[SHAPE 1]]
         type = ellipse
-        x = -517.999999999
-        y = -53.9999999999
-        width = 1026.0
-        height = 351.999999999
-        fill_color = "#aaaaff"
+        x = -757.999999998
+        y = 311.999999999
+        width = 1564.0
+        height = 327.999999999
+        fill_color = "#ffaaff"
         border_style = 3
         z = -1.0
     [[SHAPE 2]]
@@ -490,11 +533,11 @@ version = 0.8.3
         z = -1.0
     [[SHAPE 3]]
         type = ellipse
-        x = -757.999999998
-        y = 311.999999999
-        width = 1564.0
-        height = 327.999999999
-        fill_color = "#ffaaff"
+        x = -517.999999999
+        y = -53.9999999999
+        width = 1026.0
+        height = 351.999999999
+        fill_color = "#aaaaff"
         border_style = 3
         z = -1.0
     [[SHAPE 4]]
