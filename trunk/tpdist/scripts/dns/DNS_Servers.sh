@@ -46,7 +46,7 @@ function iniciarDeamonBind {
 
   echo "###################################################"
 
-  sudo service bind9 start
+  sudo service bind9 restart
   
 }
 
