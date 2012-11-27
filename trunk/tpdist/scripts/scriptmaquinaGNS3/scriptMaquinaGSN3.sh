@@ -51,9 +51,9 @@ fi
 
     sudo ifconfig br0 up
     sudo ifconfig br0 $2/$3 
-    sudo ifconfig tap0 10.24.1.4/27 #HostA
-    sudo ifconfig tap1 10.10.5.6/24 #HostB
-    sudo ifconfig tap2 10.92.27.6/25 #HostC
+    sudo ifconfig tap0 10.92.27.6/25 #HostC 
+    sudo ifconfig tap1 10.24.1.4/27 #HostA 
+    sudo ifconfig tap2 10.10.5.6/24 #HostB
     sudo ifconfig tap3 10.24.1.133/25 #DNS Root
     sudo ifconfig tap4 10.10.5.5/24 #DNS1
     sudo ifconfig tap5 10.24.3.5/24 #DNS2
