@@ -52,6 +52,8 @@ function iniciarDeamonBind {
 
 function dns1 {
 
+  dir=$(dirname $(which $0))
+
   sudo ifconfig eth0 10.10.5.5 netmask 255.255.255.0 up
 
   sudo route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.10.5.1 metric 1
@@ -64,13 +66,15 @@ function dns1 {
 
   echo "###################################################"
 
-  sudo cp -R ../../dns/secundario1/* /etc/bind/
+  sudo cp -R $dir/../../dns/secundario1/* /etc/bind/
 
   iniciarDeamonBind
 
 }
 
 function dns2 {
+
+  dir=$(dirname $(which $0))
 
   sudo ifconfig eth0 10.24.3.5 netmask 255.255.255.0 up
 
@@ -84,13 +88,15 @@ function dns2 {
 
   echo "###################################################"
 
-  sudo cp -R ../../dns/secundario2/* /etc/bind/
+  sudo cp -R $dir/../../dns/secundario2/* /etc/bind/
 
   iniciarDeamonBind
 
 }
 
 function dnsroot {
+
+  dir=$(dirname $(which $0))
 
   sudo ifconfig eth0 10.24.1.133 netmask 255.255.255.128 up
   
@@ -104,7 +110,7 @@ function dnsroot {
 
   echo "###################################################"
 
-  sudo cp -R ../../dns/root/* /etc/bind/
+  sudo cp -R $dir/../../dns/root/* /etc/bind/
 
   iniciarDeamonBind
   
