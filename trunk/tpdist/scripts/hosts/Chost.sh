@@ -11,18 +11,18 @@ then
 fi
 
 #Baja el servicio network-manager 
-/etc/init.d/network-manager stop 
+#/etc/init.d/network-manager stop 
 
 #Hace flush de las tablas que contienen los ips
-iptables -F
+#iptables -F
 
 #Borrar todas las direcciones de ip asignada a la interfaz $1
-ip addr flush dev $1
+#ip addr flush dev $1
 
 #A /25
 #Configura la direccion IP de la interfaz $1
-#ifconfig $1:0 up 10.92.27.7 netmask 255.255.255.128
-ifconfig $1 up 10.92.27.7 netmask 255.255.255.128
+#ifconfig $1:0 up 10.92.27.6 netmask 255.255.255.128
+#ifconfig $1 up 10.92.27.7 netmask 255.255.255.128
 
 #Habilita IP forwarding (Aparentemente necesario para cuando hay subinterfaces)
 #echo 1 > /proc/sys/net/ipv4/ip_forward
@@ -60,9 +60,6 @@ route add -net 172.43.0.84 netmask 255.255.255.252 gw 10.92.27.2  metric 1
 route add -net 10.24.1.64 netmask 255.255.255.224 gw 10.92.27.2  metric 1
 #O / 24
 route add -net 133.43.1.0 netmask 255.255.255.0 gw 10.92.27.5  metric 2
-
-#Default
-route add default gw 10.92.27.5
 
 #Configurar el DNS 
 # DNS 1 Trelew
