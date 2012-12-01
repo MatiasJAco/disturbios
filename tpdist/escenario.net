@@ -150,15 +150,12 @@ version = 0.8.3
         1 = access 1 R12 f1/0
         2 = access 1 R13 f0/0
         3 = access 1 R14 f0/0
-        4 = access 1 nio_tap:tap2
-        5 = access 1 nio_tap:tap4
         x = 389.744732728
         y = 437.597979746
         z = 1.0
     [[ETHSW RedH]]
         1 = access 1 R13 f1/0
         2 = access 1 R14 f3/0
-        3 = access 1 nio_tap:tap7
         x = -109.63499295
         y = 412.04163056
         z = 1.0
@@ -288,7 +285,6 @@ version = 0.8.3
         2 = access 1 R3 f1/0
         4 = access 1 R4 f0/0
         5 = access 1 R5 f0/0
-        6 = access 1 nio_tap:tap5
         x = 79.4999999997
         y = -278.0
         z = 1.0
@@ -297,8 +293,6 @@ version = 0.8.3
         2 = access 1 R2 f1/0
         4 = access 1 R3 f0/0
         5 = access 1 R6 f0/0
-        6 = access 1 nio_tap:tap0
-        7 = access 1 nio_tap:tap6
         x = -329.673664916
         y = -286.872149726
         z = 1.0
@@ -395,8 +389,6 @@ version = 0.8.3
         1 = access 1 R10 f0/0
         2 = access 1 R11 f0/0
         3 = access 1 R7 f2/0
-        4 = access 1 nio_tap:tap3
-        5 = access 1 nio_tap:tap8
         x = -17.6980515335
         y = 133.556349186
         z = 1.0
@@ -412,14 +404,12 @@ version = 0.8.3
         1 = access 1 R7 f1/0
         2 = access 1 R9 f0/0
         3 = access 1 R8 f0/0
-        4 = access 1 nio_tap:tap1
         x = 302.298989873
         y = 131.330952442
         z = 1.0
     [[ETHSW RedN]]
         1 = access 1 R11 f2/0
         2 = access 1 R17 f0/0
-        3 = access 1 nio_tap:tap9
         x = -365.5
         y = 192.0
         z = 1.0
@@ -468,51 +458,42 @@ version = 0.8.3
         text = "Río Negro"
         x = 93.0580079521
         y = 318.425973595
-    [[Cloud TelServer]]
-        x = -231.5
-        y = 133.0
-        z = 1.0
-        connections = RedN:3:nio_tap:tap9 RedG:5:nio_tap:tap8
-    [[Cloud WebServer]]
-        x = -335.499999999
-        y = 356.999999999
-        z = 1.0
-        connections = RedH:3:nio_tap:tap7
     [[Cloud FTPServer]]
         x = -383.499999999
         y = -201.0
         z = 1.0
-        connections = RedA:7:nio_tap:tap6
-    [[Cloud DNS_2]]
-        x = 144.5
-        y = -384.999999999
-        z = 1.0
-        connections = RedB:6:nio_tap:tap5
-    [[Cloud DNS_1]]
-        x = 226.499999999
-        y = 548.999999999
-        z = 1.0
-        connections = RedI:5:nio_tap:tap4
     [[Cloud DNSroot]]
         x = -223.5
         y = -11.0
         z = 1.0
-        connections = RedG:4:nio_tap:tap3
-    [[Cloud Host_B]]
-        x = 469.2148622
-        y = 513.7148622
+    [[Cloud DNS_2]]
+        x = 144.5
+        y = -384.999999999
         z = 1.0
-        connections = RedI:4:nio_tap:tap2
     [[Cloud Host_A]]
         x = 206.499999999
         y = 4.99999999992
         z = 1.0
-        connections = RedD:4:nio_tap:tap1
     [[Cloud Host_C]]
         x = -473.499999999
         y = -390.999999999
         z = 1.0
-        connections = RedA:6:nio_tap:tap0
+    [[Cloud Host_B]]
+        x = 469.2148622
+        y = 513.7148622
+        z = 1.0
+    [[Cloud WebServer]]
+        x = -335.499999999
+        y = 356.999999999
+        z = 1.0
+    [[Cloud TelServer]]
+        x = -231.5
+        y = 133.0
+        z = 1.0
+    [[Cloud DNS_1]]
+        x = 226.499999999
+        y = 548.999999999
+        z = 1.0
     [[SHAPE 1]]
         type = ellipse
         x = -757.999999998
