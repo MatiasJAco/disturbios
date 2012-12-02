@@ -4,4 +4,4 @@
 # 3 -> ip de topologia
 # 4 -> mascara topologia
 
-openvpn ./host.conf --remote $1 --port $2 --ifconfig $3 $4
+openvpn --config ./host.conf --remote $1 --port $2 --ifconfig $3 $4
