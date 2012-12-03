@@ -63,7 +63,10 @@ route add -net 133.43.1.0 netmask 255.255.255.0 gw 10.92.27.5  metric 2
 
 #Configurar el DNS 
 # DNS 1 Trelew
-echo "nameserver 10.10.5.5" > /etc/resolv.conf
+#echo "nameserver 10.10.5.5" > /etc/resolv.conf
+
+# DNS Root
+echo "nameserver 10.24.1.133" > /etc/resolv.conf
 
 echo "Host C Configurado"
 

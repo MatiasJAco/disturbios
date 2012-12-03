@@ -65,6 +65,9 @@ route add -net 133.43.1.0 netmask 255.255.255.0 gw 192.168.8.67  metric 2
 # DNS 2 Rio Negro
 #echo "nameserver 10.24.3.5" > /etc/resolv.conf
 
+# DNS Root
+echo "nameserver 10.24.1.133" > /etc/resolv.conf
+
 echo "Server Web Configurado"
 
 exit 0
