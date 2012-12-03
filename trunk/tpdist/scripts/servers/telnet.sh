@@ -65,7 +65,10 @@ route add default gw 10.24.1.66
 
 #Configurar el DNS 
 # DNS 2 Punta Indio
-echo "nameserver 10.24.3.5" > /etc/resolv.conf
+#echo "nameserver 10.24.3.5" > /etc/resolv.conf
+
+# DNS Root
+echo "nameserver 10.24.1.133" > /etc/resolv.conf
 
 echo "Server FTP Configurado"
 

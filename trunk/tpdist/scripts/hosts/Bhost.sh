@@ -66,7 +66,10 @@ route add default gw 10.10.5.1
 
 #Configurar el DNS 
 # DNS 2 Rio Negro
-echo "nameserver 10.24.3.5" > /etc/resolv.conf
+#echo "nameserver 10.24.3.5" > /etc/resolv.conf
+
+# DNS Root
+echo "nameserver 10.24.1.133" > /etc/resolv.conf
 
 echo "Host B Configurado"
 
