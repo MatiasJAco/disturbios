@@ -4,11 +4,11 @@
 #Script de configuracion del Host C     #
 #########################################
 
-if [ $# -ne 1 ];
-then
-	echo "Debe llamar al script: ./<script>.sh ethX"
-	exit 1
-fi
+#if [ $# -ne 1 ];
+#then
+#	echo "Debe llamar al script: ./<script>.sh ethX"
+#	exit 1
+#fi
 
 #Baja el servicio network-manager 
 #/etc/init.d/network-manager stop 
@@ -21,11 +21,14 @@ fi
 
 #A /25
 #Configura la direccion IP de la interfaz $1
-#ifconfig $1:0 up 10.92.27.6 netmask 255.255.255.128
-#ifconfig $1 up 10.92.27.7 netmask 255.255.255.128
+#ifconfig $1 up 10.92.27.6 netmask 255.255.255.128
 
 #Habilita IP forwarding (Aparentemente necesario para cuando hay subinterfaces)
 #echo 1 > /proc/sys/net/ipv4/ip_forward
+
+#El Host C pertenece a la red A /25 IP 10.92.27.6
+
+#Tabla de Ruteo
 
 #B / 24
 route add -net 10.24.3.0 netmask 255.255.255.0 gw 10.92.27.5  metric 1

@@ -4,29 +4,9 @@
 #Script de configuracion del Host A     #
 #########################################
 
-if [ $# -ne 1 ];
-then
-	echo "Debe llamar al script: ./<script>.sh ethX"
-	exit 1
-fi
+#El Host A pertenece a la red D. /27 IP 10.24.1.4
 
-#Baja el servicio network-manager 
-/etc/init.d/network-manager stop 
-
-#Hace flush de las tablas que contienen los ips
-iptables -F
-
-#Borrar todas las direcciones de ip asignada a la interfaz $1
-ip addr flush dev $1
-
-#B /24
-#Configura la direccion IP de la interfaz $1
-#ifconfig $1:0 up 10.92.27.7 netmask 255.255.255.128
-ifconfig $1 up 10.24.1.4 netmask 255.255.255.224
-
-#Habilita IP forwarding (Aparentemente necesario para cuando hay subinterfaces)
-#echo 1 > /proc/sys/net/ipv4/ip_forward
-
+# Tabla de Ruteo
 #A / 25
 route add -net 10.92.27.0 netmask 255.255.255.128 gw 10.24.1.2  metric 2
 #B / 24
@@ -60,9 +40,6 @@ route add -net 172.43.0.84 netmask 255.255.255.252 gw 10.24.1.2  metric 3
 route add -net 10.24.1.64 netmask 255.255.255.224 gw 10.24.1.2  metric 2
 #O / 24
 route add -net 133.43.1.0 netmask 255.255.255.0 gw 10.24.1.3  metric 2
-
-#Default
-route add default gw 10.24.1.2
 
 #Configurar el DNS 
 # DNS 2 Punta Indio
