@@ -4,28 +4,9 @@
 #Script de configuracion del Host B     #
 #########################################
 
-if [ $# -ne 1 ];
-then
-	echo "Debe llamar al script: ./<script>.sh ethX"
-	exit 1
-fi
+#El Host B pertenece a la red I /24 IP 10.10.5.6
 
-#Baja el servicio network-manager 
-/etc/init.d/network-manager stop 
-
-#Hace flush de las tablas que contienen los ips
-iptables -F
-
-#Borrar todas las direcciones de ip asignada a la interfaz $1
-ip addr flush dev $1
-
-#I /24
-#Configura la direccion IP de la interfaz $1
-#ifconfig $1:0 up 10.92.27.7 netmask 255.255.255.128
-ifconfig $1 up 10.10.5.6 netmask 255.255.255.0
-
-#Habilita IP forwarding (Aparentemente necesario para cuando hay subinterfaces)
-#echo 1 > /proc/sys/net/ipv4/ip_forward
+#Tabla de Ruteo
 
 #A / 25
 route add -net 10.92.27.0 netmask 255.255.255.128 gw 10.10.5.4  metric 3
@@ -61,8 +42,6 @@ route add -net 10.24.1.64 netmask 255.255.255.224 gw 10.10.5.1  metric 2
 #O / 24
 route add -net 133.43.1.0 netmask 255.255.255.0 gw 10.10.5.1  metric 1
 
-#Default
-route add default gw 10.10.5.1
 
 #Configurar el DNS 
 # DNS 2 Rio Negro
