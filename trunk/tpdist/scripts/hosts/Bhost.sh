@@ -36,6 +36,7 @@ route add -net 172.43.0.68 netmask 255.255.255.252 gw 10.10.5.4  metric 2
 route add -net 172.43.0.76 netmask 255.255.255.252 gw 10.10.5.4  metric 2
 route add -net 172.43.0.80 netmask 255.255.255.252 gw 10.10.5.4  metric 2
 route add -net 172.43.0.84 netmask 255.255.255.252 gw 10.10.5.4  metric 2
+route add -net 172.43.0.88 netmask 255.255.255.252 gw 10.10.5.4  metric 2
 
 #N / 27
 route add -net 10.24.1.64 netmask 255.255.255.224 gw 10.10.5.1  metric 2
