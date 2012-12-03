@@ -53,10 +53,6 @@ function iniciarDeamonBind {
 function dns1 {
 
   dir=$(dirname $(which $0))
-
-  #sudo ifconfig eth0 10.10.5.5 netmask 255.255.255.0 up
-
-  #sudo route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.10.5.1 metric 1
   
   instalarBind
 
@@ -76,10 +72,6 @@ function dns2 {
 
   dir=$(dirname $(which $0))
 
-  #sudo ifconfig eth0 10.24.3.5 netmask 255.255.255.0 up
-
-  #sudo route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.24.3.4 metric 1
-
   instalarBind
 
   echo "###################################################"
@@ -97,10 +89,6 @@ function dns2 {
 function dnsroot {
 
   dir=$(dirname $(which $0))
-
-  #sudo ifconfig eth0 10.24.1.133 netmask 255.255.255.128 up
-  
-  #sudo route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.24.1.132 metric 1
 
   instalarBind
 
