@@ -4,28 +4,7 @@
 #Script de configuracion del Web Server #
 #########################################
 
-if [ $# -ne 1 ];
-then
-	echo "Debe llamar al script: ./<script>.sh ethX"
-	exit 1
-fi
-
-#Baja el servicio network-manager 
-#/etc/init.d/network-manager stop 
-
-#Hace flush de las tablas que contienen los ips
-#iptables -F
-
-#Borrar todas las direcciones de ip asignada a la interfaz $1
-#ip addr flush dev $1
-
-#H /26
-#Configura la direccion IP de la interfaz $1
-#ifconfig $1:0 up 10.92.27.7 netmask 255.255.255.128
-#ifconfig $1 up 192.168.8.71 netmask 255.255.255.192
-
-#Habilita IP forwarding (Aparentemente necesario para cuando hay subinterfaces)
-#echo 1 > /proc/sys/net/ipv4/ip_forward
+# El Webserver esta en la red H / 26 IP 192.168.8.71
 
 #A / 25 
 route add -net 10.92.27.0 netmask 255.255.255.128 gw 192.168.8.67  metric 2
@@ -55,6 +34,7 @@ route add -net 172.43.0.68 netmask 255.255.255.252 gw 192.168.8.67  metric 1
 route add -net 172.43.0.76 netmask 255.255.255.252 gw 192.168.8.67  metric 1
 route add -net 172.43.0.80 netmask 255.255.255.252 gw 192.168.8.67  metric 1
 route add -net 172.43.0.84 netmask 255.255.255.252 gw 192.168.8.67  metric 1
+route add -net 172.43.0.88 netmask 255.255.255.252 gw 192.168.8.67  metric 1
 
 #N / 27
 route add -net 10.24.1.64 netmask 255.255.255.224 gw 192.168.8.67  metric 1
