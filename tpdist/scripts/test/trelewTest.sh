@@ -1,5 +1,5 @@
 #!/bin/bash
-#Test de conectividad - HOST C
+#Test de conectividad para Trelew
 
 function parse {
 	ping -c 4 $1  | grep --color=always "PING\|4 packets\|errors\|100\%"
