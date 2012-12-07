@@ -14,6 +14,6 @@ reiniciar el servicio
 sudo service apparmor restart
 
 Ademas se debe cambiar el propietario del directorio de log
-y de los archivos de configuracion par que perteneza a root y a bind
+y de los archivos de configuracion para que perteneza a root y a bind
 
  
